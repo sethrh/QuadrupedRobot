@@ -15,9 +15,9 @@ def main():
     disp.begin()
     disp.clear()
 
-    # show exaple picture
-    image=Image.open("./dog.png")
-    image.resize((320,240))
+    # show example picture
+    image = Image.open("./dog.png")
+    image = image.resize((320, 240))
     disp.display(image)
 
 main()
